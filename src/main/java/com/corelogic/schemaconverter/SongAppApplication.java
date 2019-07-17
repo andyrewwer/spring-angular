@@ -1,4 +1,4 @@
-package com.deus.songapp;
+package com.corelogic.schemaconverter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

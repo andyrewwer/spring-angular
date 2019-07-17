@@ -44,7 +44,7 @@ repositories {
 }
 
 node {
-	version = '9.4.0'
+	version = '10.9.0'
 	distBaseUrl = 'https://nodejs.org/dist'
 	download = true
 
@@ -120,3 +120,4 @@ processResources.dependsOn(tasks.npmBuild)
 test.dependsOn(['npmTest'])
 
 task startDatabase(dependsOn: [composeUp])
+task stopDatabase(dependsOn: [composeDown])

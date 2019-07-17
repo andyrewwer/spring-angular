@@ -1,3 +1,3 @@
-CREATE DATABASE "song-dev";
-CREATE DATABASE "song-e2e";
-CREATE DATABASE "song-test";
+CREATE DATABASE "db-dev";
+CREATE DATABASE "db-e2e";
+CREATE DATABASE "db-test";

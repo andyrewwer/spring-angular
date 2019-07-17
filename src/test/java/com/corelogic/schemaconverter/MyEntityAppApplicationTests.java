@@ -1,4 +1,4 @@
-package com.deus.songapp;
+package com.corelogic.schemaconverter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
-public class SongAppApplicationTests {
+public class MyEntityAppApplicationTests {
 
 	@Test
 	public void contextLoads() {
