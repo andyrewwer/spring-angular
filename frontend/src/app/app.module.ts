@@ -6,12 +6,14 @@ import {HeaderComponent} from './header/header.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule, MatRippleModule, MatListModule} from '@angular/material';
+import { FirstComponentComponent } from './components/first-component/first-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    FirstComponentComponent,
   ],
   imports: [
     AppRoutingModule,
